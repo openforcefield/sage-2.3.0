@@ -28,6 +28,10 @@ central bonds with a single multiplicity.
 - Sage 2.1.0 torsion drive set augmented with [OpenFF multiplicity correction
   torsion drive data v1.1][tm-td]
 
+See [datasets](./datasets) for the full data sets in JSON format readable by
+[openff-qcsubmit][qcsubmit] and [fb-fit.tar.gz](./fb-fit.tar.gz) for the full
+[ForceBalance][fb] input.
+
 ### Environment changes
 See [fb-196.yaml](fb-196.yaml) for the full fitting environment. Major changes
 include:
@@ -39,3 +43,4 @@ include:
 [tm-td]: https://github.com/openforcefield/qca-dataset-submission/tree/master/submissions/2022-04-29-OpenFF-multiplicity-correction-torsion-drive-data
 [fb]: https://github.com/leeping/forcebalance
 [offtk]: https://github.com/openforcefield/openff-toolkit
+[qcsubmit]: https://github.com/openforcefield/openff-qcsubmit
