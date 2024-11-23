@@ -1,0 +1,23 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      76165     0.0000     0.7393  0.03864  0.03864  0.02835  0.03783     4885
+openff_unconstrained-2.2.1      76165     0.0000     0.7345  0.04116  0.04116  0.02967  0.04129     5088
+openff_unconstrained-2.2.1-sdata      76165     0.0000     0.7301  0.04011  0.04011  0.02959  0.03833     4787
+Filtering dataset
+Number of molecules kept by filter: 149
+Number of molecules filtered out: 76016
+
+
+Stats for molecules that include phosphates
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0        149     0.0023     0.2072  0.05418  0.05418  0.04170  0.04273       14
+openff_unconstrained-2.2.1        149     0.0024     0.2016  0.05035  0.05035  0.03915  0.03883       10
+openff_unconstrained-2.2.1-sdata        149     0.0002     0.2050  0.05624  0.05624  0.04012  0.04427        8
+
+Stats for molecules that don't include phosphates
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      76016     0.0000     0.7393  0.03861  0.03861  0.02833  0.03781     4870
+openff_unconstrained-2.2.1      76016     0.0000     0.7345  0.04114  0.04114  0.02965  0.04129     5076
+openff_unconstrained-2.2.1-sdata      76016     0.0000     0.7301  0.04008  0.04008  0.02957  0.03831     4779
+Saving plots to 210_221_221s/problems_removed/phosphates/tfd/

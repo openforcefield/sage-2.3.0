@@ -1,0 +1,15 @@
+Fri Oct  4 12:01:03 PDT 2024
+hpc3-23-04
+1733  optimization records after LowestEnergyFilter
+1409  hessians after converting to basic dataset
+Converting Hessian-only dataset to records
+Matching extra Hessian records to Optimization records
+Number of Hessian records found on QCA: 899
+Number of records matched:    94
+Number of records filtered out:  805
+Hessian set written to: working-directory/hessian_set.json
+Found 1503 hessian calculations
+Found 1503 hessian molecules
+Found 121 errored calculations
+Errored dataset written to: working-directory/errored_dataset.json
+Fri Oct  4 12:13:22 PDT 2024

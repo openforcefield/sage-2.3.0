@@ -1,0 +1,6 @@
+Stats for all data:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      76276     0.0000     0.7393  0.03872  0.03872  0.02838  0.03795     4916
+openff_unconstrained-2.2.1      76276     0.0000     0.7345  0.04124  0.04124  0.02971  0.04141     5105
+openff_unconstrained-2.2.1-sdata      76276     0.0000     0.7301  0.04020  0.04020  0.02963  0.03850     4807
+Saving plots to 210_221_221s/tfd/

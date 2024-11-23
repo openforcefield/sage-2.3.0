@@ -1,0 +1,23 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      76184     0.0000    70.2499  7.17234  7.17234  5.46149  5.99542        0
+openff_unconstrained-2.2.1      76184     0.0000    64.6554  7.27377  7.27377  5.59625  5.99670        0
+openff_unconstrained-2.2.1-sdata      76184     0.0000    65.3172  7.22098  7.22098  5.54527  5.95598        0
+Filtering dataset
+Number of molecules kept by filter: 3860
+Number of molecules filtered out: 72330
+
+
+Stats for molecules that include 3_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0       3860     0.3205    46.8571  7.30049  7.30049  5.33854  5.98152      295
+openff_unconstrained-2.2.1       3860     0.3234    46.7273  7.20984  7.20984  5.30671  5.95527      291
+openff_unconstrained-2.2.1-sdata       3860     0.2683    47.3619  7.19660  7.19660  5.36022  5.86137      294
+
+Stats for molecules that don't include 3_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      72324     0.0000    70.2499  7.16550  7.16550  5.46655  5.99609        0
+openff_unconstrained-2.2.1      72324     0.0000    64.6554  7.27718  7.27718  5.61224  5.99889        0
+openff_unconstrained-2.2.1-sdata      72324     0.0000    65.3172  7.22228  7.22228  5.55570  5.96099        0
+Saving plots to 210_221_221s/problems_removed/3_membered_rings/icrmsd/

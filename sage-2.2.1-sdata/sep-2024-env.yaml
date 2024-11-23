@@ -1,0 +1,32 @@
+name: sep-2024-env
+channels:
+  - conda-forge
+  - openeye
+dependencies:
+  - python
+  # MM calculations
+  - openff-toolkit-base
+  - openeye::openeye-toolkits
+  - openff-interchange-base
+  - pymbar=3.1.0
+  - openff-forcefields
+  - openff-qcsubmit
+  - openff-bespokefit
+  - qcportal
+  - tqdm
+  - openmm 
+  - openmmforcefields
+  - conda-forge::libiconv
+  - ambertools
+  - qubekit
+  - ndcctools
+  - cmiles
+  - geometric
+  - click
+  - jupyter
+  - black
+  - isort
+  - flake8 
+  - mamba
+  - pip:
+    - git+https://github.com/openforcefield/yammbs.git@4b45c33

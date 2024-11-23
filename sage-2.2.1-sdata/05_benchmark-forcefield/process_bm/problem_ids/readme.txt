@@ -1,0 +1,1 @@
+sx4_outliers and filtered_ids_[*:1]-[#16X4:2](-[*])(-[*])-[*:3].txt have the same ids but in a different order. filtered_ids_[*:1]-[#16X4:2](-[*])(-[*])-[*:3].txt was the result of checking the new and old data for the SX4 pattern, but it wasn't present in the new data
