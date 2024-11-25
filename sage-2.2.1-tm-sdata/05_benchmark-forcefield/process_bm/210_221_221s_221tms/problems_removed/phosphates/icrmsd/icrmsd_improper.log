@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76190     0.0000    23.9771  2.15096  2.15096  1.50626  2.09703        0
+2.2.1                          76184     0.0000    20.2814  2.21312  2.21312  1.56823  2.08442        0
+2.2.1-sdata                    76190     0.0000    39.8839  2.19329  2.19329  1.52706  2.12714        0
+2.2.1-tm-sdata                 76187     0.0000    50.5565  2.12983  2.12983  1.45539  2.10753        0
+Filtering dataset
+Number of molecules kept by filter: 179
+Number of molecules filtered out: 76369
+
+
+Stats for molecules that include phosphates
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                            141     0.0001    18.3367  3.65416  3.65416  1.08751  5.54335        0
+2.2.1                            141     0.0019     6.0055  1.24763  1.24763  0.85702  1.15325        0
+2.2.1-sdata                      142     0.0019    28.1080  5.59606  5.59606  1.51525  7.68457        0
+2.2.1-tm-sdata                   142     0.0010    27.7410  4.01209  4.01209  1.52059  6.50038        0
+
+Stats for molecules that don't include phosphates
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76049     0.0000    23.9771  2.14817  2.14817  1.50685  2.08435        0
+2.2.1                          76043     0.0000    20.2814  2.21491  2.21491  1.56987  2.08534        0
+2.2.1-sdata                    76048     0.0000    39.8839  2.18693  2.18693  1.52713  2.09792        0
+2.2.1-tm-sdata                 76045     0.0000    50.5565  2.12631  2.12631  1.45539  2.08912        0
+Saving plots to 210_221_221s_221tms/problems_removed/phosphates/icrmsd/

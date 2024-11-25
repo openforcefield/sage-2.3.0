@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76542     0.0000    70.2499  7.19797  7.19797  5.47174  6.02605        0
+2.2.1                          76542     0.0000    64.6554  7.30074  7.30074  5.60575  6.03384        0
+2.2.1-sdata                    76542     0.0000    65.3172  7.24979  7.24979  5.55596  5.99630        0
+2.2.1-tm-sdata                 76542     0.0000    66.7676  7.15182  7.15182  5.39168  6.04945        0
+Filtering dataset
+Number of molecules kept by filter: 3097
+Number of molecules filtered out: 73451
+
+
+Stats for molecules that include 4r_heteroatoms
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                           3097     0.8441    42.3646  8.31983  8.31983  7.33509  5.19833      124
+2.2.1                           3097     1.1015    42.6092  8.89399  8.89399  7.63959  5.57046      132
+2.2.1-sdata                     3097     0.8901    37.9061  8.89878  8.89878  7.91843  5.24470      139
+2.2.1-tm-sdata                  3097     0.9405    39.4185  8.95075  8.95075  8.15237  5.18483      129
+
+Stats for molecules that don't include 4r_heteroatoms
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          73445     0.0000    70.2499  7.15066  7.15066  5.41343  6.05390        0
+2.2.1                          73445     0.0000    64.6554  7.23356  7.23356  5.52951  6.04338        0
+2.2.1-sdata                    73445     0.0000    65.3172  7.18025  7.18025  5.47433  6.01601        0
+2.2.1-tm-sdata                 73445     0.0000    66.7676  7.07596  7.07596  5.29354  6.07151        0
+Saving plots to 210_221_221s_221tms/problems_removed/4r_heteroatoms/icrmsd/

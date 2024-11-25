@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66621   -44.9638    26.1884 -0.64652  1.92983 -0.25830  2.80558        0
+2.2.1                          66621   -45.1941    27.5737 -0.70508  1.96196 -0.30577  2.84059        0
+2.2.1-sdata                    66621   -45.0574    26.5520 -0.71562  1.94097 -0.31934  2.81745        0
+2.2.1-tm-sdata                 66621   -53.8779    32.4603 -0.68805  1.91589 -0.28560  2.83949        0
+Filtering dataset
+Number of molecules kept by filter: 179
+Number of molecules filtered out: 76006
+
+
+Stats for molecules that include phosphates
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                            160   -16.1117    16.1784 -1.93848  3.84727 -1.16076  5.39985        0
+2.2.1                            160   -16.0070    10.1663 -2.49325  3.66858 -1.48946  4.92492        0
+2.2.1-sdata                      160   -23.0950    26.5520 -2.61208  5.33301 -1.36468  7.98164        0
+2.2.1-tm-sdata                   160   -49.6374    32.4603 -3.49899  6.44609 -1.14443 12.71965        0
+
+Stats for molecules that don't include phosphates
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66461   -44.9638    26.1884 -0.64341  1.92521 -0.25773  2.79571        0
+2.2.1                          66461   -45.1941    27.5737 -0.70077  1.95785 -0.30469  2.83236        0
+2.2.1-sdata                    66461   -45.0574    26.4797 -0.71106  1.93281 -0.31888  2.79197        0
+2.2.1-tm-sdata                 66461   -53.8779    26.4166 -0.68128  1.90498 -0.28506  2.77011        0
+Saving plots to 210_221_221s_221tms/problems_removed/phosphates/dde/

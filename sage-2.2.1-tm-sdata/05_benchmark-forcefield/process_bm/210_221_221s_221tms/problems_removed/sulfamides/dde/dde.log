@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66621   -44.9638    26.1884 -0.64652  1.92983 -0.25830  2.80558        0
+2.2.1                          66621   -45.1941    27.5737 -0.70508  1.96196 -0.30577  2.84059        0
+2.2.1-sdata                    66621   -45.0574    26.5520 -0.71562  1.94097 -0.31934  2.81745        0
+2.2.1-tm-sdata                 66621   -53.8779    32.4603 -0.68805  1.91589 -0.28560  2.83949        0
+Filtering dataset
+Number of molecules kept by filter: 127
+Number of molecules filtered out: 76058
+
+
+Stats for molecules that include sulfamides
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                            112    -8.0501     9.6751  0.14814  2.22699 -0.05940  3.12424        0
+2.2.1                            112    -6.9983     7.8602 -0.26731  1.73971  0.02384  2.46441        0
+2.2.1-sdata                      112    -7.8225     8.1281 -0.24379  2.02214 -0.17972  2.84362        0
+2.2.1-tm-sdata                   112    -7.5228     8.0336  0.25470  1.69167  0.27009  2.44075        0
+
+Stats for molecules that don't include sulfamides
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66509   -44.9638    26.1884 -0.64786  1.92933 -0.25902  2.80483        0
+2.2.1                          66509   -45.1941    27.5737 -0.70582  1.96234 -0.30679  2.84113        0
+2.2.1-sdata                    66509   -45.0574    26.5520 -0.71642  1.94084 -0.32025  2.81734        0
+2.2.1-tm-sdata                 66509   -53.8779    32.4603 -0.68963  1.91627 -0.28740  2.83985        0
+Saving plots to 210_221_221s_221tms/problems_removed/sulfamides/dde/

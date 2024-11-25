@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76548     0.0000     3.4085  0.25372  0.25372  0.17229  0.25201     6077
+2.2.1                          76548     0.0000     3.3156  0.25740  0.25740  0.17449  0.25361     6113
+2.2.1-sdata                    76548     0.0000     4.0956  0.25721  0.25721  0.17441  0.25294     6173
+2.2.1-tm-sdata                 76548     0.0000     3.3816  0.25035  0.25035  0.16861  0.24672     6181
+Filtering dataset
+Number of molecules kept by filter: 3907
+Number of molecules filtered out: 72641
+
+
+Stats for molecules that include 3_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                           3907     0.0092     3.3200  0.26929  0.26929  0.17348  0.27728      315
+2.2.1                           3907     0.0124     3.2527  0.27120  0.27120  0.17501  0.27876      319
+2.2.1-sdata                     3907     0.0135     2.7879  0.27728  0.27728  0.17526  0.28167      336
+2.2.1-tm-sdata                  3907     0.0105     2.5464  0.26489  0.26489  0.17213  0.25936      329
+
+Stats for molecules that don't include 3_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          72641     0.0000     3.4085  0.25289  0.25289  0.17220  0.25055     5765
+2.2.1                          72641     0.0000     3.3156  0.25666  0.25666  0.17445  0.25217     5789
+2.2.1-sdata                    72641     0.0000     4.0956  0.25613  0.25613  0.17434  0.25126     5813
+2.2.1-tm-sdata                 72641     0.0000     3.3816  0.24957  0.24957  0.16842  0.24599     5867
+Saving plots to 210_221_221s_221tms/problems_removed/3_membered_rings/rmsd/

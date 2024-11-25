@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66621   -44.9638    26.1884 -0.64652  1.92983 -0.25830  2.80558        0
+2.2.1                          66621   -45.1941    27.5737 -0.70508  1.96196 -0.30577  2.84059        0
+2.2.1-sdata                    66621   -45.0574    26.5520 -0.71562  1.94097 -0.31934  2.81745        0
+2.2.1-tm-sdata                 66621   -53.8779    32.4603 -0.68805  1.91589 -0.28560  2.83949        0
+Filtering dataset
+Number of molecules kept by filter: 3795
+Number of molecules filtered out: 72390
+
+
+Stats for molecules that include 3r_C
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                           3346   -24.8052    11.0946 -0.48298  1.95363 -0.15855  2.80855        0
+2.2.1                           3346   -23.6217    10.3639 -0.50252  2.00607 -0.19426  2.85280        0
+2.2.1-sdata                     3346   -25.1958     9.9689 -0.64431  1.93027 -0.31020  2.76245        0
+2.2.1-tm-sdata                  3346   -25.4155    10.4315 -0.53671  1.91925 -0.23646  2.78366        0
+
+Stats for molecules that don't include 3r_C
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          63275   -44.9638    26.1884 -0.65517  1.92857 -0.26283  2.80516        0
+2.2.1                          63275   -45.1941    27.5737 -0.71579  1.95963 -0.31111  2.83954        0
+2.2.1-sdata                    63275   -45.0574    26.5520 -0.71939  1.94154 -0.31975  2.82028        0
+2.2.1-tm-sdata                 63275   -53.8779    32.4603 -0.69605  1.91571 -0.28777  2.84218        0
+Saving plots to 210_221_221s_221tms/problems_removed/3r_C/dde/

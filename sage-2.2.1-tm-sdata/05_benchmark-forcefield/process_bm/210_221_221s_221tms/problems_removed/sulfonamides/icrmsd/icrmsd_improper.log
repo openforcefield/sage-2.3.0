@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76190     0.0000    23.9771  2.15096  2.15096  1.50626  2.09703        0
+2.2.1                          76184     0.0000    20.2814  2.21312  2.21312  1.56823  2.08442        0
+2.2.1-sdata                    76190     0.0000    39.8839  2.19329  2.19329  1.52706  2.12714        0
+2.2.1-tm-sdata                 76187     0.0000    50.5565  2.12983  2.12983  1.45539  2.10753        0
+Filtering dataset
+Number of molecules kept by filter: 6287
+Number of molecules filtered out: 70261
+
+
+Stats for molecules that include sulfonamides
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                           6267     0.0005    23.9771  2.49238  2.49238  1.79103  2.27023        0
+2.2.1                           6260     0.0010    14.7852  2.37257  2.37257  1.65464  2.16259        0
+2.2.1-sdata                     6264     0.0012    16.6628  2.62275  2.62275  1.85134  2.37699        0
+2.2.1-tm-sdata                  6261     0.0004    14.8633  2.38959  2.38959  1.63579  2.22538        0
+
+Stats for molecules that don't include sulfonamides
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          69923     0.0000    19.1325  2.12036  2.12036  1.48152  2.07807        0
+2.2.1                          69924     0.0000    20.2814  2.19884  2.19884  1.56125  2.07668        0
+2.2.1-sdata                    69926     0.0000    39.8839  2.15482  2.15482  1.50271  2.09903        0
+2.2.1-tm-sdata                 69926     0.0000    50.5565  2.10657  2.10657  1.44066  2.09508        0
+Saving plots to 210_221_221s_221tms/problems_removed/sulfonamides/icrmsd/

@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66621   -44.9638    26.1884 -0.64652  1.92983 -0.25830  2.80558        0
+2.2.1                          66621   -45.1941    27.5737 -0.70508  1.96196 -0.30577  2.84059        0
+2.2.1-sdata                    66621   -45.0574    26.5520 -0.71562  1.94097 -0.31934  2.81745        0
+2.2.1-tm-sdata                 66621   -53.8779    32.4603 -0.68805  1.91589 -0.28560  2.83949        0
+Filtering dataset
+Number of molecules kept by filter: 106
+Number of molecules filtered out: 76079
+
+
+Stats for molecules that include 3r_heteroatoms
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                             94   -10.0118     3.1467 -0.77332  1.52158 -0.40747  2.12386        0
+2.2.1                             94   -10.2256     3.6485 -1.08985  1.71131 -0.45733  2.38420        0
+2.2.1-sdata                       94    -9.9313     4.1909 -0.76746  1.71089 -0.41202  2.32875        0
+2.2.1-tm-sdata                    94   -10.0040     3.4053 -0.86748  1.76339 -0.40170  2.45610        0
+
+Stats for molecules that don't include 3r_heteroatoms
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66527   -44.9638    26.1884 -0.64635  1.93041 -0.25798  2.80642        0
+2.2.1                          66527   -45.1941    27.5737 -0.70454  1.96232 -0.30542  2.84115        0
+2.2.1-sdata                    66527   -45.0574    26.5520 -0.71555  1.94130 -0.31915  2.81808        0
+2.2.1-tm-sdata                 66527   -53.8779    32.4603 -0.68779  1.91610 -0.28542  2.83998        0
+Saving plots to 210_221_221s_221tms/problems_removed/3r_heteroatoms/dde/

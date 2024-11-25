@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76542     0.0000    70.2499  7.19797  7.19797  5.47174  6.02605        0
+2.2.1                          76542     0.0000    64.6554  7.30074  7.30074  5.60575  6.03384        0
+2.2.1-sdata                    76542     0.0000    65.3172  7.24979  7.24979  5.55596  5.99630        0
+2.2.1-tm-sdata                 76542     0.0000    66.7676  7.15182  7.15182  5.39168  6.04945        0
+Filtering dataset
+Number of molecules kept by filter: 51802
+Number of molecules filtered out: 24746
+
+
+Stats for molecules that include 5_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          51802     0.0000    70.2499  7.02389  7.02389  5.36954  5.79866     3508
+2.2.1                          51802     0.0000    59.7633  7.11389  7.11389  5.48375  5.75927     3331
+2.2.1-sdata                    51802     0.0000    59.7904  7.07236  7.07236  5.45298  5.73273     3356
+2.2.1-tm-sdata                 51802     0.0000    59.7925  6.97701  6.97701  5.27318  5.79858     3521
+
+Stats for molecules that don't include 5_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          24740     0.0000    66.3873  7.56245  7.56245  5.69702  6.46119        0
+2.2.1                          24740     0.0000    64.6554  7.69200  7.69200  5.87365  6.55446        0
+2.2.1-sdata                    24740     0.0000    65.3172  7.62129  7.62129  5.80418  6.49806        0
+2.2.1-tm-sdata                 24740     0.0000    66.7676  7.51784  7.51784  5.63020  6.52851        0
+Saving plots to 210_221_221s_221tms/problems_removed/5_membered_rings/icrmsd/

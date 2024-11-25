@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76548     0.0031     0.5942  0.01591  0.01591  0.01538  0.00857     1586
+2.2.1                          76548     0.0007     0.1229  0.01637  0.01637  0.01588  0.00429     1723
+2.2.1-sdata                    76548     0.0023     0.6025  0.01618  0.01618  0.01551  0.01036     1653
+2.2.1-tm-sdata                 76548     0.0019     0.6087  0.01609  0.01609  0.01551  0.00993     1637
+Filtering dataset
+Number of molecules kept by filter: 54164
+Number of molecules filtered out: 22384
+
+
+Stats for molecules that include small_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          54164     0.0063     0.4062  0.01619  0.01619  0.01574  0.00675     1008
+2.2.1                          54164     0.0052     0.0476  0.01661  0.01661  0.01624  0.00358      879
+2.2.1-sdata                    54164     0.0038     0.4134  0.01637  0.01637  0.01598  0.00669      835
+2.2.1-tm-sdata                 54164     0.0056     0.4189  0.01641  0.01641  0.01597  0.00677     1038
+
+Stats for molecules that don't include small_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          22384     0.0031     0.5942  0.01523  0.01523  0.01443  0.01186      591
+2.2.1                          22384     0.0007     0.1229  0.01578  0.01578  0.01503  0.00561      912
+2.2.1-sdata                    22384     0.0023     0.6025  0.01571  0.01571  0.01447  0.01608      912
+2.2.1-tm-sdata                 22384     0.0019     0.6087  0.01532  0.01532  0.01432  0.01502      668
+Saving plots to 210_221_221s_221tms/problems_removed/small_rings/icrmsd/

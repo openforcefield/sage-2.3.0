@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          76548     0.0000     3.4085  0.25372  0.25372  0.17229  0.25201     6077
+2.2.1                          76548     0.0000     3.3156  0.25740  0.25740  0.17449  0.25361     6113
+2.2.1-sdata                    76548     0.0000     4.0956  0.25721  0.25721  0.17441  0.25294     6173
+2.2.1-tm-sdata                 76548     0.0000     3.3816  0.25035  0.25035  0.16861  0.24672     6181
+Filtering dataset
+Number of molecules kept by filter: 7192
+Number of molecules filtered out: 69356
+
+
+Stats for molecules that include 5r_S
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                           7192     0.0132     3.1038  0.27070  0.27070  0.18312  0.26240      541
+2.2.1                           7192     0.0183     3.1310  0.27809  0.27809  0.19372  0.25938      524
+2.2.1-sdata                     7192     0.0158     3.0320  0.27525  0.27525  0.18939  0.25792      551
+2.2.1-tm-sdata                  7192     0.0172     2.9437  0.27116  0.27116  0.18537  0.25263      538
+
+Stats for molecules that don't include 5r_S
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          69356     0.0000     3.4085  0.25196  0.25196  0.17117  0.25084     5547
+2.2.1                          69356     0.0000     3.3156  0.25526  0.25526  0.17272  0.25291     5572
+2.2.1-sdata                    69356     0.0000     4.0956  0.25534  0.25534  0.17296  0.25234     5581
+2.2.1-tm-sdata                 69356     0.0000     3.3816  0.24819  0.24819  0.16710  0.24599     5661
+Saving plots to 210_221_221s_221tms/problems_removed/5r_S/rmsd/

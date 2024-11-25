@@ -1,0 +1,26 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          66621   -44.9638    26.1884 -0.64652  1.92983 -0.25830  2.80558        0
+2.2.1                          66621   -45.1941    27.5737 -0.70508  1.96196 -0.30577  2.84059        0
+2.2.1-sdata                    66621   -45.0574    26.5520 -0.71562  1.94097 -0.31934  2.81745        0
+2.2.1-tm-sdata                 66621   -53.8779    32.4603 -0.68805  1.91589 -0.28560  2.83949        0
+Filtering dataset
+Number of molecules kept by filter: 51654
+Number of molecules filtered out: 24531
+
+
+Stats for molecules that include 5_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          45187   -44.9638    26.1884 -0.67826  1.88578 -0.28306  2.74714        0
+2.2.1                          45187   -45.1941    27.5737 -0.72722  1.90760 -0.32028  2.77198        0
+2.2.1-sdata                    45187   -45.0574    26.4797 -0.73940  1.88457 -0.33770  2.73766        0
+2.2.1-tm-sdata                 45187   -53.8779    26.4166 -0.72224  1.85815 -0.30976  2.71449        0
+
+Stats for molecules that don't include 5_membered_rings
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+2.1.0                          21434   -29.1275    16.1784 -0.57963  2.02270 -0.20451  2.92384        0
+2.2.1                          21434   -29.5113    15.7402 -0.65839  2.07657 -0.26378  2.97953        0
+2.2.1-sdata                    21434   -29.5933    26.5520 -0.66550  2.05989 -0.28455  2.97804        0
+2.2.1-tm-sdata                 21434   -49.6374    32.4603 -0.61595  2.03762 -0.22736  3.08522        0
+Saving plots to 210_221_221s_221tms/problems_removed/5_membered_rings/dde/
